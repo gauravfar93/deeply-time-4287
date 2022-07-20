@@ -1,0 +1,82 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+#kfc_logo{
+    display: flex;
+    margin-left: 90px;
+}
+#btn{
+    display: flex;
+}
+.logo{
+    width: 40px ;
+    height: 40px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.menuhead{
+    margin-left: 40px;
+
+}
+#menu h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#buttontag{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 80px;
+
+}
+#button_start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 50px;
+    border: none;
+    width: 160px;
+    background-color:  #e4002b;
+   
+    color: white;
+    
+
+}
+#line{
+    width: 0px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 8px;
+}
+#bottom_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 45px;
+}
+#bottom_navbar>h5{
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+#loc{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
