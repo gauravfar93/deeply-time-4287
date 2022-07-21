@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: auto;
+    background: white;
+
 
 }
 #kfc_logo{
@@ -68,6 +71,7 @@
     width: 100%;
     background-color: black;
     height: 45px;
+    
 }
 #bottom_navbar>h5{
     color: white;
@@ -79,4 +83,541 @@
     height: 20px;
     width: 20px;
     color: red;
+}
+
+/*slider css*/
+
+#main{
+    margin: 0;
+    padding: 0;
+    height: 75.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin-bottom: -35px;
+   
+  }
+  
+  .slider{
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: fill;
+
+  }
+  
+  .slides{
+    width: 500%;
+    height: 70vh;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 70vh;
+  }
+
+  .navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background: grey;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 15px;
+  }
+  
+  .manual-btn:hover{
+    background: white
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+ .seller{
+     width: 20%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 25px;
+     margin: auto;
+     
+ }
+ 
+ .seller>div{
+    color: white;
+     margin-left: 40px;
+     cursor: pointer;
+ }
+  #head{   
+      color: black;
+      margin-left: 110px;
+      
+  }
+
+  #watches{
+      display: grid;
+      width: 94%;
+      margin: auto;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: auto;
+      transition: all 0.3s;
+  }
+
+ .pricediv{
+   display: flex;
+   justify-content: space-between;
+   margin-top: -30px;
+ }
+  .button1{
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background-color:   #ff0000;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .watch-box{
+    width: 85%;
+    height:auto;
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    
+  }
+  img{
+    width: 100%;
+    background-color: #e3e3e3;
+    
+  }
+  img:hover{
+    cursor: pointer;
+  }
+
+  .price{
+    color: #ff0000;
+    font-size: 23px;
+  }
+  .strikeoff{
+    text-decoration: line-through;
+    /* margin-left: -140px; */
+    margin-top: 30px;
+  }
+  ul {
+    list-style: none; 
+    margin-top: -18px;
+    line-height: 17px;
+    font-size: 18px;
+  }
+  
+  ul li::before {
+    content: "\2022";  
+    color: red; 
+    font-weight: bold; 
+    display: inline-block;
+    width: .6em; 
+    margin-left: -40px;
+    
+    list-style: square;
+  }
+ 
+  #airpods{
+    display: grid;
+      width: 94%;
+      margin: auto;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: auto;
+      transition: 2s;
+  }
+  #top-seller{
+    margin-top: -33px;
+  }
+  .line1,.line2{
+    height: 0px;
+    width: 100%;
+    
+    margin-top: 15px;
+    
+  }
+  
+  #line1,#line2,#line3{
+    
+      height: 0px;
+      width: 100%;
+      
+      margin-top: 15px;
+      
+    
+  }
+  #new-launches{
+    display: flex;
+    border: 2px solid white;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    border-radius: 35px;
+    background: white;
+  }
+ #new{
+   width: 100%;
+   height: 100%;
+   border-top-left-radius: 5%;
+   border-bottom-left-radius: 5%;
+ }
+ #launchprice{
+   color: black;
+   font-size: 30px;
+ }
+ #desdiv{
+   display: flex;
+   
+   width: 100%;
+   justify-content: center;
+   
+   
+ }
+#new-launches-data{
+  width: 55% ;
+  text-align: center;
+
+}
+#new-launches-image{
+  width: 45%;
+  text-align: center;
+}
+#feautures{
+  margin-left: 30px;
+}
+#des{
+  background: #6f6f6f;
+  color: white;
+}
+#trendinghead{
+  
+  width: 20%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 25px;
+     margin: auto;
+     color: white;
+
+}
+.wireless,.anc,.wired2{
+  cursor: pointer;
+}
+  
+#trenddata{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+#trendline1,#trendline2,#trendline3{
+  margin-top: 15px;
+}
+
+#gaming{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+#bluetooth{
+  color: #9e9e9e;
+  
+}
+  #sline{
+    width: 60px;
+   margin-top: -8px;
+    border: 0.001rem solid red ;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  #special{
+      margin-top: 30px;
+      display: inline-block;
+    color: white;
+      background-color: red;
+      padding: 5px;
+      font-size: 25px;
+  }
+
+  #red_navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    border: 1px solid red;
+    align-items: center;
+    background-color: #e4002b;
+    color: white;
+    
+  }
+
+  #order_button{
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+
+  }
+
+  /* featured item */
+
+  #featured_item{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(4,1fr);
+    height: auto;
+    width: 85%;
+    margin: auto;
+    
+    grid-gap: 2rem;
+
+  }
+
+  #featured_item img{
+    width: 85%;
+    height: 300px;
+  }
+  #featured_item div{
+    margin: auto;
+  }
+  #line{
+    border: 1px solid gray;
+    width: 85%;
+    height: 2.5px;
+    background-color: gray;
+    margin: auto;
+  }
+
+  /* upper_footer */
+#upper_footer{
+    height: auto;
+    width: 100%;
+    
+
+} 
+#upper_footer img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+#learn_more{
+    height: 50px;
+    width: 100%;
+    background-color: #e4002b;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+#learn_more_button{
+    background: black;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+}
+#upper_footer2{
+    height: auto;
+    width: 100%;
+    
+}
+
+#upper_footer2 img{
+    width: 100%;
+}
+
+#footer{
+    height: 600px;
+    width: 100%;
+    border: 1px solid #202124;
+    background-color: #202124;
+    margin-top: -4px;
+}
+
+#footer1{
+    margin-top: 30px;
+    margin-left: 217px;
+    font-size: 12px;
+    color: white;
+}
+#footer2{
+    margin-top: 30px;
+    margin-left: 217px;
+    width: 49%;
+    font-size: 12px;
+    color: white;
+}
+#footer3{
+    margin-top: 30px;
+    margin-left: 217px;
+    width: 49%;
+    font-size: 12px;
+    color: white; 
+}
+
+#kentucky img{
+    width: 150px;
+    height: 200px;
+    margin-left: 217px;
+    margin-top: 50px;
+}
+
+#kfc_food{
+    height: auto;
+    width: auto;
+    
+    margin-left: 400px;
+    margin-top: -202px;
+
+}
+#kfc_food1{
+    color: white;
+}
+.kfc_food2{
+    font-size:12px;
+    color: white;
+}
+#company{
+    height: auto;
+    width: auto;
+    margin-left: 570px;
+    margin-top: -148px;
+}
+#career{
+    height: auto;
+    width: auto;
+    margin-left: 720px;
+    margin-top: -225px;
+}
+#Resources{
+    height: auto;
+    width: auto;
+    margin-left: 835px;
+    margin-top: -146px;
+}
+
+#privacy_policy{
+    height: auto;
+    width: auto;
+    margin: 128px;
+    margin-left: 217px;
+    color: white;
+    font-size: 12px;
+    
+}
+
+#bar{
+    height: 50px;
+    width: 0px;
+    border: 1px solid white;
+    margin-left: 375px;
+    margin-top: -170px;
+    
+}
+#update{
+    height: auto;
+    width: auto;
+    margin: 128px;
+    margin-left: 390px;
+    margin-top: -68px;
+    color: white;
+    font-size: 12px;
+    
+
+}
+#bar2{
+    height: 50px;
+    width: 0px;
+    border: 1px solid white;
+    margin-left: 500px;
+    margin-top: -140px;
+    
+}
+#terms{
+    height: auto;
+    width: auto;
+    margin: 128px;
+    margin-left: 508px;
+    margin-top: -66px;
+    color: white;
+    font-size: 12px;
+}
+
+#bar3{
+    height: 50px;
+    width: 0px;
+    border: 1px solid white;
+    margin-left: 640px;
+    margin-top: -140px;
+}
+
+#copyright{
+    height: auto;
+    width: auto;
+    margin: 128px;
+    margin-left: 750px;
+    margin-top: -66px;
+    color: white;
+    font-size: 12px;
+}
+#icon{
+    height: auto;
+    width: auto;
+    margin: 128px;
+    margin-left: 1000px;
+    margin-top: -140px;
+    color: white; 
 }
