@@ -64,6 +64,25 @@
     border: 1px solid black;
     margin-top: 8px;
 }
+#bottom_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 45px;
+}
+#bottom_navbar>h5{
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+#loc{
+    height: 20px;
+    width: 20px;
+    color: red;
+}
 
 
 /* below navbar */
