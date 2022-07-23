@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     background: white;
-
+    
 
 }
 #kfc_logo{
@@ -58,6 +58,12 @@
     
 
 }
+/* #nav{
+   
+    width: 100%;
+    position: fixed;
+  
+} */
 #line{
     width: 0px;
     height: 30px;
@@ -71,6 +77,7 @@
     width: 100%;
     background-color: black;
     height: 45px;
+   
     
 }
 #bottom_navbar>h5{
@@ -105,7 +112,7 @@
     border-radius: 10px;
     overflow: hidden;
     object-fit: fill;
-
+    
   }
   
   .slides{
@@ -187,6 +194,7 @@
   #head{   
       color: black;
       margin-left: 110px;
+      
       
   }
 
@@ -398,6 +406,7 @@
     background-color: #e4002b;
     color: white;
     
+    
   }
 
   #order_button{
@@ -418,17 +427,20 @@
     grid-template-rows: repeat(1,1fr);
     grid-template-columns: repeat(4,1fr);
     height: auto;
-    width: 85%;
+    width: 70%;
     margin: auto;
+    margin-right: 21.5%;
     
-    grid-gap: 2rem;
+    
 
   }
 
   #featured_item img{
-    width: 85%;
-    height: 300px;
+    width: auto;
+    height: 200px;
+
   }
+
   #featured_item div{
     margin: auto;
   }
@@ -440,6 +452,86 @@
     margin: auto;
   }
 
+  /* video tag */
+#videodiv{
+    margin-top: 70px;
+}
+
+/* video_below_div */
+#video_below_div{
+    position: absolute;
+    height: 300px;
+    width: 80%;
+    
+    margin-left: 150px;
+    display: flex;
+    margin-top: -200px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;   
+}
+#button2{
+    background-color: #e4002b;
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    color: white;
+    margin-left: 100px;
+    border: none;
+}
+
+#yep{
+    color: #202124;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+    width: 60%;
+    
+}
+#fries{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+#fries_img{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#content{
+    width: 50%;
+    /* border: 1px solid brown; */
+}
+
+#quick_bites{
+    height: auto;
+    width: 20%;
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+#quick_bites p{
+    color: #202124;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    
+}
+/* images below quick bites */
+#menu2{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(5,1fr);
+    /* border: 1px solid black; */
+    margin-left: 200px;
+}
+
+#menu2 img{
+    width: auto;
+    height: 200px;
+
+}
+
+
   /* upper_footer */
 #upper_footer{
     height: auto;
@@ -447,6 +539,7 @@
     
 
 } 
+
 #upper_footer img{
     width: 100%;
     margin-top: 100px;
@@ -523,6 +616,46 @@
     margin-top: -202px;
 
 }
+#kfc_food p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#company p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#career p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#Resources p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#privacy_policy p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#update p:hover{
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+#terms p:hover{
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+#copyright p:hover{
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
 #kfc_food1{
     color: white;
 }
